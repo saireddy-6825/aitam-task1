@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">First name:</label>
+            <input type="text" name="name" placeholder="enter your first name">
+            <br>
+            <br>
+            <label for="name">Last name:</label>
+            <input type="text" name="name" placeholder="enter your last name">
+            <br>
+            <br>
+            <label for="number">Age:</label>
+            <input type="number" name="" id="">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="enter your email">
+            <input type="submit" name="" id="" value="submit">
+        </fieldset>
+
+        <fieldset>
+            <legend>Education section</legend>
+            <label for="degree">Degree:</label>
+            <input type="text" name="degree" placeholder="enter yout degree">
+            <br><br>
+            <label for="degree">Institute:</label>
+            <input type="text" name="institute" placeholder="enter your institute name">
+        </fieldset>
+        <br><br>
+
+        <textarea name="" id="" placeholder="enter your feedback"></textarea>
+
+        <input type="submit" value="submit">
+        <button>click here to submit</button>
+        <br><br>
+
+        <!-- how to make dropdown -->
+
+        <select name="country" id="">
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+            <option value="Egypt">Egypt</option>
+        </select>
+        <br><br>
+
+        <!-- optgroup to categorize options -->
+
+        <select name="vehicles" id="">
+            <optgroup label="cars">
+                <option value="swift">swift</option>
+                <option value="toyota">toyota</option>
+                <option value="honda">honda</option>
+            </optgroup>
+            <optgroup label="bikes">
+                <option value="tvs">tvs</option>
+                <option value="honda">honda</option>
+                <option value="royal">royal</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <!-- how to select from dropdown -->
+
+        <input list="ice-cream flavours" id="ice-cream choice" value="select ice-cream">
+
+        <datalist id="ice-cream flavours">
+            <option value="vanilla">vanilla</option>
+            <option value="strawberry">strawberry</option>
+            <option value="butterscotch">butterscotch</option>
+        </datalist>
+
+    </form>
+
+</body>
+</html>

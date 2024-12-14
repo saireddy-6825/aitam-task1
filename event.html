@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+
+    <center>
+        <table border="1" cellpadding="10" cellspacing="0" style="border-radius: 10px;">
+            <tr>
+                <td>
+                    <h1>Event Registration Form</h1>
+
+                    <form action="#" method="post">
+                        <!-- Full Name -->
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+
+                        <!-- Email -->
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+                        <!-- Phone Number -->
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+                        <!-- Event Date -->
+                        <label for="event-date">Event Date:</label>
+                        <input type="date" id="event-date" name="event-date" required><br><br>
+
+                        <!-- Select Session -->
+                        <label for="session">Select Event:</label><br>
+                        <input type="checkbox" id="event1" name="session" value="Event 1">
+                        <label for="event1"> Event 1: 48hr hackathon</label><br>
+                        <input type="checkbox" id="event2" name="session" value="Event 2">
+                        <label for="event2"> Event 2: go karting</label><br>
+                        <input type="checkbox" id="event3" name="session" value="Event 3">
+                        <label for="event3"> Event 3: project exhibition</label><br><br>
+
+
+                        <!-- dayscholar or hosteller -->
+
+                        <select name="" id="">
+                            <option value="day">Dayscholar</option>
+                            <option value="hos">hosteller</option>
+                        </select><br><br>
+
+                        <!-- Gender -->
+                        <fieldset>
+                            <legend>Gender:</legend>
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" value="male"><br>
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="gender" value="female"><br>
+                            <label for="other">Other</label>
+                            <input type="radio" id="other" name="gender" value="other"><br><br>
+                        </fieldset>
+
+                        
+                        <label for="">How did you hear us?</label><br>
+                        <input type="radio">instagram
+                        <input type="radio">youtube
+                        <input type="radio">whatsapp
+                        <input type="radio">other
+                        <br><br>
+
+
+                        <!-- payment method -->
+                        <label for="">How would you like to pay?</label><br>
+                        <input type="radio">paytm
+                        <input type="radio">creditcard
+                        <input type="radio">phonepay
+                        <input type="radio">gpay
+                        <input type="radio">other
+                        <br><br>
+
+                        <!-- Terms and Conditions -->
+                        <label for="terms">
+                            <input type="checkbox" id="terms" name="terms" required> I agree to the terms and conditions
+                        </label><br><br>
+
+                        <!-- Submit Button -->
+                        <input type="submit" value="Register">
+
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+</body>
+</html>
